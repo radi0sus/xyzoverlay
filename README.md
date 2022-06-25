@@ -5,7 +5,7 @@
 A Python 3 script for overlaying or superimposing two or more molecules. The overlaid / superimposed molecules can be displayed and the modified coordinates can be saved as xyz files. Coloring by atom or molecule is possible. All subsequent molecules are superimposed on the first molecule.
 
 ## External modules
-`pandas`, `numpy`, `scipy`
+`pandas`, `numpy`, `scipy`, `matplotlib`
 
 ## Quick start
 ```console
