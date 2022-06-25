@@ -39,10 +39,10 @@ Open a xyz file that contains several molecules. Use all atoms for superimposing
 **NOTE**
 
 The script only performs something when either a view option (`-vcm` or `-vca`) or a save option (`-s` or `-st`) or both are specified. 
+The script only computes something when one of the following options is specified: `-a`, `-sa` or `-aa`.
 
 ---
 
-> The script only computes something when one of the following options is specified: `-a`, `-sa` or `-aa`.
 
 ## Command-line options
 - `filename` , required: filename(s), e.g. `my_xyz.xyz` or `my_xyz-1.xyz my_xyz-2.xyz ...` or `multi_xyz.xyz`. The first two lines will be ignored, file format must be `element x y z`, cartesian coordinates, units in Å. In case of xyz files that contain several molecules (multi xyz files or xyz trajectory) the same format is expected with no extra separation between the molecules (empty lines for example). Only one of these multi xyz files can be opened at a time.    
