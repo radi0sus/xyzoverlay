@@ -35,7 +35,12 @@ python3 xyzoverlay.py multi-mol_trj.xyz -aa -vcm -cm coolwarm -ee H
 
 Open a xyz file that contains several molecules. Use all atoms for superimposing (`-aa`). All subsequent molecules are superimposed on the first molecule in the xyz file. View the overlaid molecules with different colors (`-vcm`). Use the `Matplotlib` colormap `coolwarm` for coloring (`-cm coolwarm`). Do not display hydrogen atoms (`-ee H`).
 
-> The script only performs something when either a view option (`-vcm` or `-vca`) or a save option (`-s` or `-st`) or both are specified. 
+---
+**NOTE**
+
+The script only performs something when either a view option (`-vcm` or `-vca`) or a save option (`-s` or `-st`) or both are specified. 
+
+---
 
 > The script only computes something when one of the following options is specified: `-a`, `-sa` or `-aa`.
 
