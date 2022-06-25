@@ -38,7 +38,8 @@ Open a xyz file that contains several molecules. Use all atoms for superimposing
 ---
 **NOTE**
 
-The script only performs something when either a view option (`-vcm` or `-vca`) or a save option (`-s` or `-st`) or both are specified. 
+The script only performs something when either a view option (`-vcm` or `-vca`) or a save option (`-s` or `-st`) or both are specified.
+
 The script only computes something when one of the following options is specified: `-a`, `-sa` or `-aa`.
 
 ---
