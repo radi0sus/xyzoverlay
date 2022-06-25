@@ -11,29 +11,29 @@ A Python 3 script for overlaying or superimposing two or more molecules. The ove
 ```console
 python3 xyzoverlay.py mol-1.xyz mol-2.xyz -a 1 2 3 -a 3 4 5 -vcm -s
 ```
+Open two xyz files (`mol-1.xyz` & `mol-2.xyz`) and overlay the atoms 1 2 3 (`-a 1 2 3`) of molecule 1 with the atoms 3 4 5 (`-a 3 4 5`) of molecule 2. View the superimposed molecules with different colors (`-vcm`) and save the modified xyz files (`-s`).
+
 <p align="center">
 <img width="400" alt="fig1" src="/examples/figure_1.png">
 </p>
 
-Open two xyz files (`mol-1.xyz` & `mol-2.xyz`) and overlay the atoms 1 2 3 (`-a 1 2 3`) of molecule 1 with the atoms 3 4 5 (`-a 3 4 5`) of molecule 2. View the superimposed molecules with different colors (`-vcm`) and save the modified xyz files (`-s`).
-
 ```console
 python3 xyzoverlay.py mol-1.xyz mol-2.xyz mol-3.xyz -sa 1 2 3 4 -vca -ee H -st
 ```
+Open three molecules and overlay the first four atoms in all opened xyz files (`-sa 1 2 3 4`). All subsequent molecules are superimposed on the first molecule (`mol-1.xyz`). View the superimposed molecules with differently colored atoms (`-vca`). Do not display hydrogen atoms (`-ee H`). Save the modified xyz files as a single (multi) xyz file (`-st`).
+
 <p align="center">
 <img width="400" alt="fig2" src="/examples/figure_2.png">
 </p>
 
-Open three molecules and overlay the first four atoms in all opened xyz files (`-sa 1 2 3 4`). All subsequent molecules are superimposed on the first molecule (`mol-1.xyz`). View the superimposed molecules with differently colored atoms (`-vca`). Do not display hydrogen atoms (`-ee H`). Save the modified xyz files as a single (multi) xyz file (`-st`).
-
 ```console
 python3 xyzoverlay.py multi-mol_trj.xyz -aa -vcm -cm coolwarm -ee H
 ```
+Open a xyz file that contains several molecules. Use all atoms for superimposing (`-aa`). All subsequent molecules are superimposed on the first molecule in the xyz file. View the overlaid molecules with different colors (`-vcm`). Use the `Matplotlib` colormap `coolwarm` for coloring (`-cm coolwarm`). Do not display hydrogen atoms (`-ee H`).
+
 <p align="center">
 <img width="400" alt="fig3" src="/examples/figure_3.png">
 </p>
-
-Open a xyz file that contains several molecules. Use all atoms for superimposing (`-aa`). All subsequent molecules are superimposed on the first molecule in the xyz file. View the overlaid molecules with different colors (`-vcm`). Use the `Matplotlib` colormap `coolwarm` for coloring (`-cm coolwarm`). Do not display hydrogen atoms (`-ee H`).
 
 ---
 **NOTE**
