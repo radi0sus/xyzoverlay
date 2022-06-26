@@ -74,4 +74,6 @@ python3 xyzoverlay.py cupor.xyz cutpp.xyz fepor.xyz -sa 1 2 3 -vcm
 ```
 Open 3 xyz files, select atoms 1, 2 & 3 in all molecules for the superposition (`-sa 1 2 3`), display the result, color by molecule (`-vcm`).
 
-![show](/examples/show_use1.gif)
+<p align="center">
+<img width="800" alt="example 1" src="/examples/show_use1.gif">
+</p>
