@@ -77,3 +77,13 @@ Open 3 xyz files, select atoms 1, 2 & 3 in all molecules for the superposition (
 <p align="center">
 <img width="800" alt="example 1" src="/examples/show_use1.gif">
 </p>
+
+### Example 2:
+```console
+python3 xyzoverlay.py all_xyz_trj.xyz -aa -vcm -cm RdPu -ee H
+```
+Open a multi xyz file, select all atoms for the superposition (`-aa`), exlude hydrogen atoms (`-ee H`), display the result, color by molecule (`-vcm`), use a different colormap (`-cm RdPu`). The atom and bond sizes have been reduced for this example.
+
+<p align="center">
+<img width="800" alt="example 1" src="/examples/show_use2.gif">
+</p>
