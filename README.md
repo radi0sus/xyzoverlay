@@ -72,6 +72,6 @@ The script only computes something when one of the following options is specifie
 ```console
 python3 xyzoverlay.py cupor.xyz cutpp.xyz fepor.xyz -sa 1 2 3 -vcm
 ```
-Open 3 xyz files, select atoms 1 2 & 3 in all molecules for the superposition (`-sa 1 2 3`), display the result, color by molecule (`-vcm`).
+Open 3 xyz files, select atoms 1, 2 & 3 in all molecules for the superposition (`-sa 1 2 3`), display the result, color by molecule (`-vcm`).
 
-![show](/examples/show-use1.gif)
+![show](/examples/show_use1.gif)
