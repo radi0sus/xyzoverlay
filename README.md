@@ -66,3 +66,12 @@ The script only computes something when one of the following options is specifie
 - There are no options to change the size or color of the displayed atoms or bonds. At the beginning of the script a few parameters are collected that can be adjusted quickly. There is also no labeling option.
 - The output of the modified xyz-files depends on whether several single xyz files or one multi xyzfile have been processed. Please note the `-s` and `-st` options.
 
+## Examples
+
+### Example 1:
+```console
+python3 xyzoverlay.py cupor.xyz cutpp.xyz fepor.xyz -sa 1 2 3 -vcm
+```
+Open 3 xyz files, select atoms 1 2 & 3 in all molecules for the superposition (`-sa 1 2 3`), display the result, color by molecule (`-vcm`).
+
+![show](/examples/show-use1.gif)
