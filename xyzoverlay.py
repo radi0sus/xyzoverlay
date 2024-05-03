@@ -555,6 +555,7 @@ if args.viewcba:
     #generate list of data frames of bonding atoms 
     for bond_mat in bond_mat_list:
         bond_mat.values[np.triu_indices_from(bond_mat, k=1)] = np.nan
+        pd.set_option('future.no_silent_downcasting', True)
         bond_mat = bond_mat.replace(0, np.nan)
         bond_mat = bond_mat.unstack().dropna()
         bond_mat = bond_mat.reset_index(level=1)
